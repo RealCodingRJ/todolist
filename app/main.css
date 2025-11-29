@@ -86,22 +86,26 @@ button:hover {
 @media screen and (max-width: 500px) {
   header li a {
     font-size: 17px;
+    display: none;
   }
 }
 @media screen and (max-width: 600px) {
   header li a {
     font-size: 17px;
+    display: none;
   }
 }
 
 @media screen and (max-width: 768px) {
   header li a {
     font-size: 17px;
+    display: none;
   }
 }
 
 @media screen and (max-width: 1200px) {
   header li a {
     font-size: 17px;
+    display: none;
   }
 }
