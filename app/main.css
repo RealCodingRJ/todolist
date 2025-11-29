@@ -82,3 +82,26 @@ button:hover {
   position: relative;
   top: 240px;
 }
+
+@media screen and (max-width: 500px) {
+  header li a {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header li a {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header li a {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  header li a {
+    font-size: 17px;
+  }
+}
