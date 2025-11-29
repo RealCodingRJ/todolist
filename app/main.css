@@ -83,6 +83,14 @@ button:hover {
   top: 240px;
 }
 
+h2 {
+  text-align: center;
+  position: relative;
+  top: 290px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
 @media screen and (max-width: 500px) {
   header li a {
     font-size: 17px;
