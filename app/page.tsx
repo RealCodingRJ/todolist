@@ -45,15 +45,6 @@ export default function Page() {
         <div>
           <Link href="/">List Maker</Link>
         </div>
-        <nav>
-          <ul>
-            <li>
-              <Link href="/">Home</Link>
-              <Link href="/About">About</Link>
-              <Link href="/Projects">Projects</Link>
-            </li>
-          </ul>
-        </nav>
       </header>
 
       <div className="container">
