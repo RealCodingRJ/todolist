@@ -71,8 +71,8 @@ export default function Page() {
       </div>
       <Button />
 
-      <h2>{todo1 == "" ? "Empty" : todo1}</h2>
-      <h2>{todo2 == "" ? "Empty" : todo2}</h2>
+      <h2>{todo1 == "" ? "" : todo1}</h2>
+      <h2>{todo2 == "" ? "" : todo2}</h2>
     </div>
   );
 }
