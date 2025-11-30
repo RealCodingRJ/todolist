@@ -59,6 +59,15 @@ input::placeholder {
   justify-content: center;
 }
 
+#appTitle {
+  position: relative;
+  top: 189px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
 button {
   margin: 0 auto;
   display: grid;
@@ -89,6 +98,8 @@ h2 {
   top: 290px;
   font-size: 19px;
   font-family: sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 500px) {

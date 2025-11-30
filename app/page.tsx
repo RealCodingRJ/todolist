@@ -6,6 +6,14 @@ import "./main.css";
 import { useFormState } from "react-dom";
 import { todo } from "node:test";
 
+function CreateHeading() {
+  return (
+    <div>
+      <h2 id="appTitle">Todo List Application</h2>
+    </div>
+  );
+}
+
 export default function Page() {
   const [todo1, useTodos1] = useState("");
   const [todo2, useTodos2] = useState("");
@@ -49,6 +57,7 @@ export default function Page() {
 
       <div className="container">
         <main>
+          <CreateHeading />
           <div>
             <input placeholder={"Enter Todo One: "} onChange={setUserInput} />
           </div>
@@ -62,8 +71,8 @@ export default function Page() {
       </div>
       <Button />
 
-      <h2>Todo 1: {todo1 == "" ? "Empty" : todo1}</h2>
-      <h2>Todo 2: {todo2 == "" ? "Empty" : todo2}</h2>
+      <h2>{todo1 == "" ? "Empty" : todo1}</h2>
+      <h2>{todo2 == "" ? "Empty" : todo2}</h2>
     </div>
   );
 }
